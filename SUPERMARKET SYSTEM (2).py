@@ -75,9 +75,13 @@ while True:
 
 print("VISIT AGAIN !") 
 
+n = len(cart_list)
+
+m = range(1,n+1) 
+
 import matplotlib.pyplot as plt
-x = (1,2,3,4,5)
-y = (50,300,10,100,60)
+x = (m)
+y = (price_list)
 plt.plot(x,y, color = 'yellow', marker = 'o', linewidth = 12, markerfacecolor = 'blue')
 plt.title("YOUR BILL'S GRAPH")
 plt.xlabel("ITEM NO.s")
